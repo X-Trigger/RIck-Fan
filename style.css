@@ -34,8 +34,55 @@ a{
 }
 .content-container{
     display: flex;
+    align-items: center;
 }
 .content-container .content{
     display: flex;
     flex-direction: column;
+    font-size: 18px;
+    color: #e5e7eb;
+    gap: 20px;
+    min-width: 330px;
+}
+.content-container .title{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.content-container .image{
+    max-width: 400px;
+}
+.content-container .button{
+    background-color: #3882f6;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10%;
+    color: #f9faf8;
+    font-weight: 500;
+    font-size: 16px;
+}
+.second-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.second-part .title{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.photo-gallery{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+.second-part .image{
+    height: 200px;
+    border:5px solid #3882f6 ;
+    border-radius: 20%;
+}
+.text{
+    text-align: center;
 }
