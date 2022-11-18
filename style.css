@@ -4,8 +4,14 @@ body{
     font-family: 'Roboto', sans-serif;
     margin: 0px;
     padding: 0px;
-    gap: 50px;
     justify-content: space-between;
+    min-height: 100vh;
+}
+.content-area{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 50px;
+    min-height: 100vh;
 }
 .blue-part{
     background-color: #1f2937;
