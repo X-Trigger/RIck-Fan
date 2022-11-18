@@ -4,6 +4,8 @@ body{
     font-family: 'Roboto', sans-serif;
     margin: 0px;
     padding: 0px;
+    gap: 50px;
+    justify-content: space-between;
 }
 .blue-part{
     background-color: #1f2937;
@@ -35,6 +37,7 @@ a{
 .content-container{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .content-container .content{
     display: flex;
@@ -56,11 +59,11 @@ a{
 .content-container .button{
     background-color: #3882f6;
     border: none;
-    padding: 10px 20px;
-    border-radius: 10%;
+    padding: 20px 40px;
+    border-radius: 20px;
     color: #f9faf8;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 24px;
 }
 .second-part{
     display: flex;
@@ -83,6 +86,78 @@ a{
     border:5px solid #3882f6 ;
     border-radius: 20%;
 }
-.text{
+.second-part .text{
     text-align: center;
+}
+.gray-part{
+    display: flex;
+    background: #e5e7eb;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 200px 20px 200px;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    margin: 0px;
+}
+.by{
+    font-size: 24px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+.last-part{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.last-part .content{
+    display: flex;
+    flex-flow: column wrap;
+}
+.blue-container{
+    background-color: #3882f6;
+    padding: 50px 200px 50px 200px;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 40px;
+}
+.blue-container .title{
+    font-size: 28px;
+    font-weight: 600;
+    color: #f9faf8;
+}
+.blue-container .text{
+    font-size: 18px;
+    color: #f9faf8;
+}
+.blue-container button{
+    border: 2px solid #f9faf8;
+    background-color: #3882f6;
+    border-radius: 20px;
+    padding: 20px;
+    color: #f9faf8;
+    font-size: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items:stretch;
+    background: #1f2937;
+    padding: 20px;
+    color: #f9faf8;
+    font-size: 20px;
+    margin-top: auto;
+}
+.blue-part,
+.second-part,
+.gray-part,
+.last-part{
+    flex-grow: 1;
 }
